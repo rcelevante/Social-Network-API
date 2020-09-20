@@ -35,11 +35,13 @@ const UserSchema = new Schema({
   }
 );
 
-// schema
+// create the User Model using Schema
 const User = model('User', UserSchema);
 
+// get total count of comments 
 UserSchema.virtual('friendCount').get(function() {
   return this.friends.length;
 });
 
+// export the model
 module.exports = User;

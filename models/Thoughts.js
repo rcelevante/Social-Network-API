@@ -3,7 +3,7 @@ const moment = require('moment');
 
 const ReactionSchema = new Schema(
     {
-      
+      // set id
       reactionId: {
         type: Schema.Types.ObjectId,
         default: () => new Types.ObjectId()
