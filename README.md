@@ -10,13 +10,20 @@ I WANT an API for my social network that uses a NoSQL database
 SO THAT my website can handle large amounts of unstructured data
 
 
-Video Walkthrough
-**enter url**
+## Video Walkthrough
+
+Click to watch the video
+
+# PART 1
+[![Watch the video](screenshot.png)](https://youtu.be/-0Dikgkc0vw)
+# PART 2
+[![Watch the video](screenshot.png)](https://youtu.be/WFpcLDCGdp8)
 
 
 ## INSTALLATION 
 * Clone repo
 * npm i
+* npm start
 
 ## LANGUAGES
 
